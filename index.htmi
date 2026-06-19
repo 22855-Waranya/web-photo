@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แผนที่ประเทศไทย</title>
+    <style>
+        /* ตั้งค่ารูปแบบพื้นฐาน */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        /* ส่วนหัวของเว็บไซต์ */
+        header {
+            background-color: #00247d; /* สีน้ำเงินธงชาติไทย */
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        /* พื้นที่แสดงเนื้อหา */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* ตั้งค่ารูปภาพแผนที่ให้ย่อขยายตามหน้าจอ */
+        .map-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+        }
+
+        /* ส่วนท้ายของเว็บไซต์ */
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🇹🇭 แผนที่ประเทศไทย 🇹🇭</h1>
+    </header>
+
+    <div class="container">
+        <p>คุณสามารถดูรายละเอียดของแผนที่ได้จากรูปภาพด้านล่างนี้</p>
+        
+        <!-- ========================================== -->
+        <!-- นำชื่อไฟล์รูปภาพของคุณมาใส่ตรง src ด้านล่างนี้ -->"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT505G6tX9B9nIQicuoqv3kOXNi8Q89iCDlSg&s"
+        <!-- ========================================== -->
+        <img src="ใส่ชื่อไฟล์รูปภาพของคุณที่นี่.jpg" alt="แผนที่ประเทศไทย" class="map-image">
+        
+    </div>
+
+    <footer>
+        &copy; 2026 เว็บไซต์แผนที่ประเทศไทยของคุณ
+    </footer>
+
+</body>
+</html>
